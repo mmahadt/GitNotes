@@ -4,6 +4,7 @@ function TableHeader() {
   return (
     <React.Component>
       <input type="checkbox"></input>
+      <p></p>
       <p>Name</p>
       <p>Date</p>
       <p>Time</p>

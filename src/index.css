@@ -35,7 +35,7 @@
   background-color: rgb(90, 203, 161);
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(1fr, 9);
+  grid-template-columns: repeat(9, 1fr);
   grid-template-rows: repeat(auto-fill, auto);
   grid-row-gap: 1em;
   grid-column-gap: 1em;
