@@ -11,7 +11,10 @@ function TableRow(props) {
   };
   const timeCalculator = (time) => {
     const d = new Date(time);
-    return `${d.getHours()}:${d.getMinutes()}:${d.getSeconds()}`;
+    const hours = d.getHours();
+    const h = hours % 12 || 12;
+    const ampm = hours < 12 || hours === 24 ? "AM" : "PM";
+    return `${h}:${d.getMinutes()} ${ampm}`;
   };
 
   return (

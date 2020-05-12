@@ -8,12 +8,7 @@ function Table(props) {
   const markup = list.map((item, index) => {
     return <TableRow rowData={item} key={index}></TableRow>;
   });
-  return (
-    <div id="table">
-      {/* <TableHeader></TableHeader> */}
-      {markup}
-    </div>
-  );
+  return <div id="table">{markup}</div>;
 }
 
 export default Table;

@@ -33,10 +33,10 @@
 
 .table-header {
   background-color: rgb(90, 203, 161);
-  width: 100%;
+  width: 100vw;
   display: grid;
   grid-template-columns: repeat(9, 1fr);
-  grid-template-rows: repeat(auto-fill, auto);
+  grid-template-rows: repeat(1, auto);
   grid-row-gap: 1em;
   grid-column-gap: 1em;
   font-size: 1.5em;
